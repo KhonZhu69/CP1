@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Certitude Professionals</title>
+  <meta name="description" content="Certitude Professionals builds dependable custom software, AI, and cloud solutions.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-container">
+      <a class="brand" href="#home" aria-label="Certitude Professionals">
+        <img src="logo.svg" alt="Certitude Professionals logo" class="brand-logo" />
+        <span class="brand-name">Certitude Professionals</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="primaryNavigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+      <nav class="nav" id="primaryNavigation">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#features" class="nav-link">Key Features</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="section hero">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <h1>Custom Software to <span class="accent">Empower Your Vision</span></h1>
+          <p>
+            Certitude Professionals is a trusted software development and technology consulting firm dedicated to building reliable,
+            scalable, and future-ready digital solutions. From AI integration to enterprise cloud platforms, we transform ideas into
+            intelligent software that helps teams automate, grow, and innovate with confidence.
+          </p>
+          <a class="btn primary" href="#contact">Get in Touch</a>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="hero-gradient"></div>
+        </div>
+      </div>
+      <div class="container hero-logos" aria-label="Technologies we work with">
+        <span>Powered by modern technologies</span>
+        <ul>
+          <li>Next.js</li>
+          <li>Google Cloud</li>
+          <li>Firebase</li>
+          <li>AI &amp; GenAI</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Services</h2>
+          <p>End-to-end product development with pragmatic strategy, precise execution, and measurable impact.</p>
+        </div>
+        <div class="card-grid">
+          <article class="card">
+            <h3>Custom Product Engineering</h3>
+            <p>
+              Design, build, and launch web or mobile applications tailored to your workflows. We focus on resilient architecture
+              and human-centered UX that scales alongside your business.
+            </p>
+          </article>
+          <article class="card">
+            <h3>AI Enablement</h3>
+            <p>
+              Integrate practical AI—from chatbots and NLP to predictive analytics—to unlock automation, decision support, and
+              delightful customer experiences.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Cloud &amp; Platform Modernization</h3>
+            <p>
+              Migrate legacy systems, build secure APIs, and deliver high-availability platforms using modern DevOps and cloud-native
+              tooling.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Consulting &amp; Discovery</h3>
+            <p>
+              Collaborate with our senior strategists to validate ideas, define roadmaps, and build a technology foundation that
+              supports long-term growth.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="section alt">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Key Features</h2>
+          <p>What makes partnering with Certitude Professionals a confident choice.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature">
+            <h3>Transparent Collaboration</h3>
+            <p>Dedicated product squads, weekly demos, and proactive communication keep every stakeholder aligned.</p>
+          </article>
+          <article class="feature">
+            <h3>Security Minded Delivery</h3>
+            <p>Secure development lifecycles, compliance-aware design, and rigorous testing protect sensitive data from day one.</p>
+          </article>
+          <article class="feature">
+            <h3>Measurable Outcomes</h3>
+            <p>Data-informed decisions and analytics ensure that releases deliver the outcomes your organization expects.</p>
+          </article>
+          <article class="feature">
+            <h3>Future-Ready Architecture</h3>
+            <p>Modular, API-first systems help teams integrate new services quickly and react to market shifts with ease.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container contact-container">
+        <div class="section-heading">
+          <h2>Get in Touch</h2>
+          <p>Share a few project details and we will respond within two business days.</p>
+        </div>
+        <form id="contactForm" class="contact-form" novalidate>
+          <div class="form-field">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required placeholder="Jane Doe">
+            <p class="field-error" data-error-for="name"></p>
+          </div>
+          <div class="form-field">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required placeholder="jane.doe@example.com">
+            <p class="field-error" data-error-for="email"></p>
+          </div>
+          <div class="form-field">
+            <label for="company">Company (Optional)</label>
+            <input type="text" id="company" name="company" placeholder="Your Company Inc.">
+            <p class="field-error" data-error-for="company"></p>
+          </div>
+          <div class="form-field">
+            <label for="message">How can we help?</label>
+            <textarea id="message" name="message" required rows="5" placeholder="Tell us about your project."></textarea>
+            <p class="field-error" data-error-for="message"></p>
+          </div>
+          <button type="submit" class="btn primary full-width">Send Message</button>
+          <p class="form-feedback" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <p>&copy; <span id="year"></span> Certitude Professionals. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#" aria-label="Privacy Policy">Privacy Policy</a>
+        <a href="#" aria-label="Terms of Service">Terms of Service</a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="assertive" aria-hidden="true"></div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
