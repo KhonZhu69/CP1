@@ -1,0 +1,29 @@
+<svg width="640" height="480" viewBox="0 0 640 480" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="heroIllustrationTitle heroIllustrationDesc">
+  <title id="heroIllustrationTitle">Stylized illustration of a desktop computer and mobile phone</title>
+  <desc id="heroIllustrationDesc">Modern blue illustration representing custom software development featuring a desktop monitor displaying code and a smartphone with a gear icon.</desc>
+  <rect x="103" y="60" width="434" height="360" rx="120" fill="url(#paint0_radial)" opacity="0.7"/>
+  <path d="M178 158c0-17.673 14.327-32 32-32h220c17.673 0 32 14.327 32 32v166c0 17.673-14.327 32-32 32H210c-17.673 0-32-14.327-32-32V158z" fill="#0F1D37"/>
+  <path d="M178 173h284v143c0 17.673-14.327 32-32 32H210c-17.673 0-32-14.327-32-32V173z" fill="#132448"/>
+  <rect x="210" y="184" width="220" height="10" rx="5" fill="#1F3B71"/>
+  <rect x="210" y="208" width="108" height="10" rx="5" fill="#60A5FA"/>
+  <rect x="210" y="228" width="160" height="10" rx="5" fill="#1D4ED8" opacity="0.8"/>
+  <rect x="210" y="248" width="90" height="10" rx="5" fill="#38BDF8" opacity="0.9"/>
+  <rect x="210" y="272" width="140" height="10" rx="5" fill="#1F3B71"/>
+  <rect x="210" y="292" width="112" height="10" rx="5" fill="#60A5FA" opacity="0.75"/>
+  <rect x="210" y="316" width="164" height="10" rx="5" fill="#1D4ED8" opacity="0.7"/>
+  <path d="M256 344h120l12 32H244l12-32z" fill="#0B152B"/>
+  <rect x="256" y="128" width="120" height="12" rx="6" fill="#0B152B"/>
+  <path d="M402 205h60c3.314 0 6 2.686 6 6v118c0 3.314-2.686 6-6 6h-60c-3.314 0-6-2.686-6-6V211c0-3.314 2.686-6 6-6z" fill="#0B152B" opacity="0.75"/>
+  <rect x="412" y="216" width="40" height="84" rx="6" fill="#0F1D37"/>
+  <rect x="420" y="224" width="24" height="24" rx="12" fill="#1D4ED8" opacity="0.7"/>
+  <path d="M432 226l4 6 6 3-6 3-4 6-4-6-6-3 6-3 4-6z" fill="#60A5FA"/>
+  <rect x="420" y="258" width="24" height="6" rx="3" fill="#1F3B71"/>
+  <rect x="420" y="270" width="24" height="6" rx="3" fill="#1F3B71" opacity="0.8"/>
+  <rect x="420" y="282" width="24" height="6" rx="3" fill="#1F3B71" opacity="0.6"/>
+  <defs>
+    <radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(320 240) rotate(90) scale(220 280)">
+      <stop stop-color="#1E3A8A"/>
+      <stop offset="1" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>
